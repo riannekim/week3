@@ -3,6 +3,51 @@
     src: url("./assets/lilgrotesk_regular.woff") format("woff"), /* Super Modern Browsers */
   }
 
-  h1 {
-      font-family: "lilgrotesk regular";
+@font-face {
+    font-family: "lilgrotesk bold";
+    src: url("./assets/lilgrotesk_bold.woff") format("woff"), /* Super Modern Browsers */
   }
+
+body {
+    background-color: black;
+    margin: 2em;
+}
+
+.regular {
+      font-family: "lilgrotesk regular";
+      font-size: 50px;
+      color: white;
+  }
+
+.regular:hover {
+    font-size:70px;
+}
+
+.bold {
+    font-family: "lilgrotesk bold";
+    font-size: 60px;
+    color: white;
+}
+
+.bold:hover {
+    font-size: 80px;
+}
+
+.paragraph {
+    font-family: "lilgrotesk regular";
+    font-size: 50px;
+    color: crimson;
+    transform: rotate(90deg);
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+.blue {
+    color:blue;
+    font-size: 80px;
+}
+
+.invisible:hover {
+    font-size: 100px;
+    opacity: 50%;
+}
