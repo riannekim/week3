@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "lilgrotesk regular";
+    src: url("./assets/lilgrotesk_regular.woff") format("woff"), /* Super Modern Browsers */
+  }
+
+  h1 {
+      font-family: "lilgrotesk regular";
+  }
